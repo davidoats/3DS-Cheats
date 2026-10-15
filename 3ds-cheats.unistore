@@ -1,0 +1,31 @@
+{
+  "storeInfo": {
+    "title": "3DS Cheat Database",
+    "author": "davidoats",
+    "description": "Install usrcheat.dat for TWiLight Menu++",
+    "file": "3ds-cheats.unistore",
+    "url": "https://raw.githubusercontent.com/davidoats/3DS-Cheats/main/3ds-cheats.unistore",
+    "version": 3,
+    "revision": 1
+  },
+  "storeContent": [
+    {
+      "info": {
+        "title": "SoulSilver and DS Cheats",
+        "author": "DeadSkullzJr",
+        "version": "V0.1",
+        "category": ["utility"],
+        "console": ["3DS"],
+        "description": "Downloads usrcheat.dat into the TWiLight Menu++ extras folder"
+      },
+      "Install usrcheat.dat": [
+        {
+          "type": "downloadFile",
+          "file": "https://github.com/davidoats/3DS-Cheats/releases/download/V0.1/usrcheat.dat",
+          "output": "sdmc:/_nds/TWiLightMenu/extras/usrcheat.dat",
+          "message": "Downloading DS cheat database..."
+        }
+      ]
+    }
+  ]
+}
